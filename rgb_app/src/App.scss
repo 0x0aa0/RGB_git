@@ -1,0 +1,335 @@
+
+.App {
+  height: 1450px;
+  background: #121212; 
+}
+
+.name{
+  color: #f4f3ee;
+  font-family: 'Roboto', sans-serif;
+  float: left;
+  margin-top: 17px;
+  margin-left: 4px;
+  font-size: 26px;
+  pointer-events: none;
+}
+
+.logo {
+  height: 55px;
+  pointer-events: none;
+  float: left;
+  margin-left: 2px;
+  margin-top: 4px;
+}
+
+.placeholder{
+  color:white;
+  float: left;
+  font-size: 18px;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+
+.socials{
+  position: absolute;
+  left: 1335px;
+  top: 9px;
+  width:170px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.App-header {
+  height: 60px;
+  width: 100vw;
+  max-width: 100%;
+  background: #000000;
+  position:absolute;
+  top:0;
+}
+
+.App-body{
+  position:absolute;
+  top:0;
+}
+
+.picker{
+  position: absolute;
+  left: 31px;
+  top: 230px;
+}
+
+.table{
+  position: absolute;
+  top: 150px;
+  left: 480px;
+}
+
+.red-dex{
+  border-radius: 5px 5px 0px 0px;
+  background: #fb4b4e;
+  width: 120px;
+  height: 35px;  
+  color: whitesmoke;
+  position: absolute;
+  left: 30px;
+  top: 100px;
+}
+
+.grn-dex{
+  border-radius: 5px 5px 0px 0px;
+  background: #56e39f;
+  width: 120px;
+  height: 35px;  
+  color: whitesmoke;
+  position: absolute;
+  left: 170px;
+  top: 100px;
+}
+
+.blu-dex{
+  border-radius: 5px 5px 0px 0px;
+  background: #01baef;
+  width: 120px;
+  height: 35px;  
+  color: whitesmoke;
+  position: absolute;
+  left: 310px;
+  top: 100px;
+}
+
+.red-place{
+  border-radius: 0px 0px 5px 5px;
+  background: #fb4b4e;
+  color: whitesmoke;
+  width: 120px;
+  height: 35px;  
+  position: absolute;
+  left: 30px;
+  top: 150px;
+}
+
+.grn-place{
+  border-radius: 0px 0px 5px 5px;
+  background: #56e39f;
+  color: whitesmoke;
+  width: 120px;
+  height: 35px;  
+  position: absolute;
+  left: 170px;
+  top: 150px;
+}
+
+.blu-place{
+  border-radius: 0px 0px 5px 5px;
+  background: #01baef;
+  color: whitesmoke;
+  width: 120px;
+  height: 35px;  
+  position: absolute;
+  left: 310px;
+  top: 150px;
+}
+
+.price-text{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-top: -6px;
+}
+
+.place-text{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-top: 9px;
+}
+
+.resetButton{
+  position: absolute;
+  top: 100px;
+  left: 480px;
+  background: #212121;
+  border: 0;
+  color: whitesmoke;
+  height: 38px;
+  width: 38px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  padding-left: 14px;
+}
+
+.textFilter{
+  position: absolute;
+  top: 100px;
+  left: 511px;
+  width: 965px;
+	font-size: 16px;
+	color: whitesmoke;
+  padding: 10px;
+  padding-left: 15px;
+	background: #212121;
+	outline: none;
+	border:none;
+	border-radius: 5px;
+}
+
+.randomButton{
+  position: absolute;
+  top: 210px;
+  left: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #212121;
+  cursor: pointer;
+  color: whitesmoke;
+  font-size: 30px;
+  padding-bottom: 5px;
+  border: 0;
+}
+
+.flipButton{
+  position: absolute;
+  top: 210px;
+  left: 380px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #212121;
+  cursor: pointer;
+  border:none;
+  color: whitesmoke;
+  font-size: 22px;
+  padding-bottom: 3px;
+}
+
+.colorBox{
+  width: 400px;
+  height: 30px;
+  background-color: #212121;
+  position: absolute;
+  left: 40px;
+  top: 630px;
+  border-radius: 5px;
+}
+
+.chartFeatures{
+  width: 1470px;
+  height: 50px;
+  position: absolute;
+  top: 740px;
+  left:30px;
+  background-color: #151515;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #212121;
+}
+
+.chartImg{
+  position: absolute;
+  left: 40px;
+  top: 750px;
+}
+
+.chartName{
+  position: absolute;
+  left: 80px;
+  top: 724px;
+  color:white;
+  font-size: 24px;
+}
+
+.chartTick{
+  color:white;
+  font-size: 16px;
+  position: relative;
+  left: 2px;
+  bottom:0px;
+}
+
+.chartPrice{
+  position: absolute;
+  right: 50px;
+  top: 724px;
+  color:white;
+  font-size: 24px;
+}
+
+.chartRGB{
+  position: absolute;
+  left: 600px;
+  top: 724px;
+  color:white;
+  font-size: 24px;
+}
+
+.chartR{
+  color:#fb4b4e;
+}
+
+.chartG{
+  color:#56e39f;
+}
+
+.chartB{
+  color:#01baef;
+}
+
+.chartDiv{
+  position: absolute;
+  top:790px;
+  left:30px;
+  background-color: #151515;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #212121;
+}
+
+.ag-theme-alpine-dark {
+  --ag-foreground-color: rgb(255, 255, 255);
+  --ag-header-foreground-color: rgb(255, 255, 255);
+  --ag-background-color: #151515;
+  --ag-header-background-color: #151515;
+  --ag-odd-row-background-color: null;
+  --ag-border-color: #212121;
+  --ag-row-border-color: #212121;
+  --ag-row-hover-color: #212121;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-button {
+  background: null;
+}
+::-webkit-scrollbar-track-piece {
+  background: #121212;
+}
+::-webkit-scrollbar-thumb {
+  background: #151515;
+}​
+
+.ag-root ::-webkit-scrollbar {
+  width: 4px;
+}
+.ag-root ::-webkit-scrollbar-button {
+  background: null;
+}
+.ag-root ::-webkit-scrollbar-track-piece {
+  background: #151515;
+}
+.ag-root ::-webkit-scrollbar-thumb {
+  background: #212121;
+}​
+
+{}
+
+
+
+
+
+
+
