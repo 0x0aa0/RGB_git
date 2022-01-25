@@ -241,7 +241,7 @@ function App() {
 
       <h2 className='tech'>Forever Decentralized</h2>
 
-      <p className='techsub'>We are using theses tools<br></br>
+      <p className='techsub'>We are using theses tools and many more<br></br>
                               to fully decentralize our stack.<br></br>
                                 From hosting our website (yes this one)<br></br>
                                 on Internet Computer<br></br>
