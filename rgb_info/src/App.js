@@ -257,8 +257,8 @@ function App() {
       <ul className="list3">
         <li>Stock Market Integration</li>
         <li className="tab1">Prediction Market Beta</li>
-        <li className="tab2">RGB NFT Drop</li>
-        <li className="tab3">Subgraph API</li>
+        <li className="tab2short">RGB NFT Drop</li>
+        <li className="tab3short">Subgraph API</li>
       </ul>
 
       <a href="https://twitter.com/hippo_labs" target="blank_" className="akultra">a project from HIPPO Labs &#8605;</a>

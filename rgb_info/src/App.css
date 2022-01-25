@@ -455,6 +455,19 @@
   position: relative;
   left: 150px;
 }
+
+.tab2short{
+  position: relative;
+  left: 100px;
+  width: 85%;
+}
+
+.tab3short{
+  position: relative;
+  left: 150px;
+  width: 70%;
+}
+
 ul li{
   width:350px;
 }
