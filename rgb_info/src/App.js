@@ -260,7 +260,7 @@ function App() {
       <img src={hippogrn} className="hippogrn" alt="logo" />
       <img src={hippoblu} className="hippoblu" alt="logo" />
 
-      <p className='milli'>MILLI</p>
+      <p className='milli'>PENUS</p>
       <p className='marketing'>Head of Marketing</p>
 
       <p className='akultra'>AKULTRA</p>
@@ -297,8 +297,8 @@ function App() {
       <ul className="list3">
         <li>Stock Market Integration</li>
         <li className="tab1">Prediction Market Beta</li>
-        <li className="tab2">RGB NFT Drop</li>
-        <li className="tab3">Top Secret :)</li>
+        <li className="tab2short">RGB NFT Drop</li>
+        <li className="tab3short">Top Secret :)</li>
       </ul>
 
       <a href="https://twitter.com/hippo_labs" target="blank_" className="hippo">a project from HIPPO Labs &#8605;</a>
