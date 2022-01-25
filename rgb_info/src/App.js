@@ -1,11 +1,11 @@
 import './App.css';
 import logo from './alt_logo.png';
-import red from './red.svg'
-import grn from './grn.svg'
-import blu from './blu.svg'
+import red from './red.png'
+import grn from './grn.png'
+import blu from './blu.png'
 import ss from './ss.png'
-import discord from './discord.svg'
-import twitter from './twitter.svg'
+import discord from './discord.png'
+import twitter from './twitter.png'
 import { Line } from 'react-chartjs-2';
 
 const linedatastruct = (canvas) => {
@@ -73,6 +73,8 @@ var bluc = pcorr(data3, data4)
 
 var buttoncolor = 'rgb(' + String(redc) + "," + String(grnc) + "," + String(bluc) +')'
 
+document.body.style = 'background: #121212;';
+
 const linedatastruct2 = () => {
 
     var ret = {
@@ -114,6 +116,7 @@ const linedatastruct2 = () => {
 function App() {
   return (
     <div className="App">
+    <div className="flex">
       <header className="App-header">
         <img src={logo} className="logo" alt="logo" />
         <h1 className="name">RGB Network</h1>
@@ -127,6 +130,7 @@ function App() {
         <a href="https://twitter.com/rgb_network_" target="blank_"><img src={twitter} className="twitter"/></a>
         <a href="https://discord.gg/dtT3wg9ZZq" target="blank_"><img src={discord} className="discord"/></a>
       </header>
+      <div>
       <h2 className="intro">Making the market more colorful</h2>
       <h3 className="introsub">RGB is the newest protocol for trading trends</h3>
       <a href="./v1.pdf" className="readpaper" target="blank_">Read the <br></br><strike>white</strike> <span className="colorpaper">colorpaper &#8605;</span></a>
@@ -160,6 +164,7 @@ function App() {
         },
     
       }} /></div>
+      </div>
 
       <a href="https://etherscan.io/" target="blank_"><img src={red} id="redsvg" className="redsvg" alt="logo" /></a>
       <a href="https://etherscan.io/" target="blank_"><img src={grn} className="grnsvg" alt="logo" /></a>
@@ -226,7 +231,7 @@ function App() {
       <p className='checkit'>&#8592; Try it out </p>    
 
       <img src={ss} id="ss" className="ss" alt="logo" />
-      <h2 className='spring'>Coming to Polygon <span className='twin22'>Spring 2022</span></h2>
+      <h2 className='spring'>Coming to Web3 <span className='twin22'>Spring 2022</span></h2>
 
       <h2 id="roadmap" className="roadmap">Roadmap</h2>
       <p className="q1">Q1</p>
@@ -258,6 +263,7 @@ function App() {
 
       <a href="https://twitter.com/hippo_labs" target="blank_" className="akultra">a project from HIPPO Labs &#8605;</a>
 
+    </div>
     </div>
   );
 }

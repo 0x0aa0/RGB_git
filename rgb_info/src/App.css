@@ -7,6 +7,12 @@
   overflow-x: hidden;
 }
 
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .App-header {
   height: 60px;
   width: 100vw;
@@ -70,23 +76,26 @@
 
 .discord{
   position:absolute;
-  top: 10px;
-  left: 1530px;
-  width: 3%;
+  top: 15px;
+  left: 1412px;
+  width: 34px;
+  height: 27px;
 }
 
 .twitter{
   position:absolute;
-  top: 10px;
-  left: 1470px;
-  width: 3%;
-  height: 65%;
+  top: 15px;
+  left: 1340px;
+  width: 34px;
 }
 
 .chartDiv{
+  width: 1550px;
   margin-top: 40px;
   margin-left: -10px;
   margin-right: -10px;
+  position: absolute;
+  left: -4px;
 }
 
 .intro{
@@ -123,9 +132,10 @@
 }
 
 .readpaper{
+  width:450px;
   position:absolute;
   top:470px;
-  left: 950px;
+  left: 960px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
   font-size: 48px;
@@ -150,21 +160,21 @@
   position: absolute;
   left: 90px;
   top: 820px;
-  width: 16%;
+  width: 260px;
 }
 
 .grnsvg{
   position: absolute;
   left: 390px;
   top: 820px;
-  width: 16%;
+  width: 260px;
 }
 
 .blusvg{
   position: absolute;
   left: 240px;
   top: 1090px;
-  width: 16%;
+  width: 260px;
 }
 
 .redsvg:hover{
@@ -199,6 +209,7 @@
   font-size: 28px;
   font-weight: 400;
   line-height: 60px;
+  width: 600px;
 }
 
 .buynow{
@@ -214,6 +225,7 @@
   background: -webkit-linear-gradient(1800deg, rgba(199,255,173,1) 0%, rgba(164,236,210,1) 16%, rgba(113,178,255,1) 31%, rgba(178,119,234,1) 44%, rgba(255,117,210,1) 64%, rgba(255,109,109,1) 83%, rgba(255,175,55,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  width: 400px;
 }
 
 .howitworks{
@@ -274,11 +286,12 @@
 .visit{
   position:absolute;
   top:2350px;
-  left: 1005px;
+  left: 1015px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
   font-size: 60px;
   font-weight: 400;
+  width: 300px;
 }
 
 .finally{
@@ -291,28 +304,31 @@
   font-weight: 400;
   line-height: 60px;
   text-align: center;
+  width: 580px;
 }
 
 .checkit{
   position:absolute;
   top:2800px;
-  left: 1035px;
+  left: 950px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
   font-size: 38px;
   font-weight: 400;
   line-height: 60px;
   text-align: center;
+  width: 400px;
 }
 
 .spring{
   position:absolute;
   top:3030px;
-  left: 335px;
+  left: 360px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
   font-size: 60px;
   font-weight: 400;
+  width: 900px;
 }
 
 .twin22{
@@ -434,6 +450,9 @@
 .tab3{
   position: relative;
   left: 150px;
+}
+ul li{
+  width:350px;
 }
 
 .akultra{
