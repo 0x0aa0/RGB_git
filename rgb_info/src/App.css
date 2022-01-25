@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 .App {
-  height: 4400px;
+  height: 5500px;
   width: 100vw;
   background: #121212; 
   overflow-x: hidden;
@@ -204,7 +204,7 @@
 
 .tokenssub{
   position:absolute;
-  top:900px;
+  top:910px;
   right: 0px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
@@ -216,7 +216,7 @@
 
 .buynow{
   position:absolute;
-  top:1265px;
+  top:1275px;
   right: 200px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
@@ -312,7 +312,7 @@
 
 .checkit{
   position:absolute;
-  top:2800px;
+  top:2770px;
   right: 170px;
   color:whitesmoke;
   font-family: 'Open Sans', sans-serif;
@@ -323,9 +323,160 @@
   width: 400px;
 }
 
+.tech{
+  position:absolute;
+  top:3020px;
+  left: 100px;
+  color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.techsub{
+  position:absolute;
+  top:3170px;
+  left: 100px;
+  color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 60px;
+  width: 700px;
+}
+
+.icp{
+  position:absolute;
+  top:3100px;
+  right: 400px;
+  width: 250px;
+}
+.matic{
+  position:absolute;
+  top:3360px;
+  right: 100px;
+  width: 210px;
+}
+
+.storj{
+  position:absolute;
+  top:3350px;
+  right: 420px;
+  width: 210px;
+}
+
+.grt{
+  position:absolute;
+  top:3110px;
+  right: 100px;
+  width: 230px;
+}
+
+.ourteam{
+  position:absolute;
+  top:4460px;
+  align-items: center;
+  color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.hippored{
+  position:absolute;
+  top:4650px;
+  left: 150px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.milli{
+  position:absolute;
+  top:4950px;
+  left: 265px;
+  color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 60px;
+  width: 700px;
+}
+
+.marketing{
+  position:absolute;
+  top:4990px;
+  left: 185px;
+  color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 60px;
+  width: 700px;
+}
+
+.hippogrn{
+  position:absolute;
+  top:4650px;
+  align-items: center;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.founder{
+  position:absolute;
+  top:4990px;
+  align-items: center;
+  color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.akultra{
+  position:absolute;
+  top:4950px;
+  align-items: center;
+  color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.hippoblu{
+  position:absolute;
+  top:4650px;
+  right: 150px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.fiesta{
+  position:absolute;
+  top:4950px;
+  right: 255px;
+  color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.leaddev{
+  position:absolute;
+  top:4980px;
+  right: 190px;
+  color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 60px;
+}
+
 .spring{
   position:absolute;
-  top:3030px;
+  top:3690px;
   align-items: center;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
@@ -345,13 +496,13 @@
   min-width: 1300px;
   max-width: 1600px;
   position: absolute;
-  top:3150px;
+  top:3800px;
   align-items: center;
 }
 
 .roadmap{
   position:absolute;
-  top:3820px;
+  top:5200px;
   align-items: center;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
@@ -362,7 +513,7 @@
 
 .timeline{
   position:absolute;
-  top:3980px;
+  top:5360px;
   width: 100vw;
   height: 10px;
   background: linear-gradient(-90deg, rgba(199,255,173,1) 0%, rgba(164,236,210,1) 16%, rgba(113,178,255,1) 31%, rgba(178,119,234,1) 44%, rgba(255,117,210,1) 64%, rgba(255,109,109,1) 83%, rgba(255,175,55,1) 100%);
@@ -370,7 +521,7 @@
 
 .q1{
   position:absolute;
-  top:3840px;
+  top:5220px;
   left: 90px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
@@ -380,7 +531,7 @@
 
 .q2{
   position:absolute;
-  top:3840px;
+  top:5220px;
   left: 340px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
@@ -390,7 +541,7 @@
 
 .q3{
   position:absolute;
-  top:3840px;
+  top:5220px;
   right: 340px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
@@ -400,7 +551,7 @@
 
 .q4{
   position:absolute;
-  top:3840px;
+  top:5220px;
   right: 90px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
@@ -410,7 +561,7 @@
 
 .list1{
   position:absolute;
-  top:3980px;
+  top:5360px;
   left: 50px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
@@ -421,7 +572,7 @@
 
 .list2{
   position:absolute;
-  top:3980px;
+  top:5360px;
   align-items: center;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
@@ -432,7 +583,7 @@
 
 .list3{
   position:absolute;
-  top:3980px;
+  top:5360px;
   right: 50px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
@@ -472,9 +623,9 @@ ul li{
   width:350px;
 }
 
-.akultra{
+.hippo{
   position:absolute;
-  top:4325px;
+  top:5725px;
   align-items: center;
   color: #505050;
   font-family: 'Open Sans', sans-serif;
