@@ -4,10 +4,9 @@ import red from './red.svg'
 import grn from './grn.svg'
 import blu from './blu.svg'
 import ss from './ss.png'
+import discord from './discord.svg'
+import twitter from './twitter.svg'
 import { Line } from 'react-chartjs-2';
-
-//testing pushing to main
-//double testing pushing to main
 
 const linedatastruct = (canvas) => {
   const ctx = canvas.getContext("2d");
@@ -124,7 +123,9 @@ function App() {
           <a href="#hiw">Demo</a>
           <a href="#roadmap">Roadmap</a>
         </nav>
-        <div className="enterapp"><a href="http://localhost:3001/" target="blank_">Launch App</a></div>
+        {/* <div className="enterapp"><a href="http://localhost:3001/" target="blank_">Launch App</a></div> */}
+        <a href="https://twitter.com/rgb_network_" target="blank_"><img src={twitter} className="twitter"/></a>
+        <a href="https://discord.gg/dtT3wg9ZZq" target="blank_"><img src={discord} className="discord"/></a>
       </header>
       <h2 className="intro">Making the market more colorful</h2>
       <h3 className="introsub">RGB is the newest protocol for trading trends</h3>
