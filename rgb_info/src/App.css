@@ -68,6 +68,21 @@
   background: linear-gradient(180deg, rgba(220,220,220,1) 0%, rgba(173,173,173,1) 100%);
 }
 
+.discord{
+  position:absolute;
+  top: 10px;
+  left: 1530px;
+  width: 3%;
+}
+
+.twitter{
+  position:absolute;
+  top: 10px;
+  left: 1470px;
+  width: 3%;
+  height: 65%;
+}
+
 .chartDiv{
   margin-top: 40px;
   margin-left: -10px;
