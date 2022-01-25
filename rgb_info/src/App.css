@@ -160,21 +160,21 @@
 
 .redsvg{
   position: absolute;
-  left: 60px;
+  left: 80px;
   top: 820px;
   width: 260px;
 }
 
 .grnsvg{
   position: absolute;
-  left: 360px;
+  left: 380px;
   top: 820px;
   width: 260px;
 }
 
 .blusvg{
   position: absolute;
-  left: 210px;
+  left: 230px;
   top: 1090px;
   width: 260px;
 }
