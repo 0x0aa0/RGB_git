@@ -168,9 +168,9 @@ function App() {
       <h3 className="tokenssub">RED, GRN, and BLU.<br></br>
                                 All deployed with the same tokenomics<br></br>
                                 at the same time.<br></br>
-                                Tradeable against eachother on Quickswap.<br></br>
+                                Launching on MISO.<br></br>
                                 Which one is your favorite?</h3>
-      <a href="https://miso.sushi.com/auctions/live" target="blank_" className="buynow">Buy Presale &#8605;</a>
+      <a href="https://miso.sushi.com/auctions/live" target="blank_" className="buynow">Crowdsale &#8605;</a>
 
       <h2 id='hiw' className="howitworks">How It Works</h2>
 
@@ -235,7 +235,7 @@ function App() {
       <div className="timeline"></div>
 
       <ul className="list1">
-        <li> Demo Site Launch</li>
+        <li> Info Site Launch</li>
         <li className="tab1"> Colorpaper Release</li>
         <li className="tab2"> Community Building</li>
         <li className="tab3"> Pinescript Indicators</li>
@@ -250,12 +250,12 @@ function App() {
 
       <ul className="list3">
         <li>Stock Market Integration</li>
-        <li className="tab1">Decentralized Stack</li>
-        <li className="tab2">Prediction Market Beta</li>
-        <li className="tab3">Open Source API</li>
+        <li className="tab1">Prediction Market Beta</li>
+        <li className="tab2">RGB NFT Drop</li>
+        <li className="tab3">Subgraph API</li>
       </ul>
 
-      <a href="https://twitter.com/AKULTRANFT" target="blank_" className="akultra">a project from akultra.eth &#8605;</a>
+      <a href="https://twitter.com/hippo_labs" target="blank_" className="akultra">a project from HIPPO Labs &#8605;</a>
 
     </div>
   );
