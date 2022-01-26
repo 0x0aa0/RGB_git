@@ -258,7 +258,7 @@ function App() {
                               to fully decentralize our stack.<br></br>
                                 From hosting our website <em>(yes this one)</em><br></br>
                                 on Internet Computer<br></br>
-                                to keeping out data on Storj<br></br>
+                                to keeping our data on Storj<br></br>
                                 we are commited to the new open web.
                                 </p>         
 
