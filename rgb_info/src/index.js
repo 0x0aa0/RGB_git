@@ -2,11 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Mobile from './Mobile';
 import reportWebVitals from './reportWebVitals';
+import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserView>
+      <App />
+    </BrowserView>
+    <MobileView>
+      <Mobile />
+    </MobileView>
   </React.StrictMode>,
   document.getElementById('root')
 );
