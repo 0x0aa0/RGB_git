@@ -6,6 +6,16 @@ import blu from './blu.png'
 import ss from './ss.png'
 import discord from './discord.png'
 import twitter from './twitter.png'
+import tv from './tv.png'
+import icp from './icp.png'
+import grt from './grt.png'
+import storj from './storj.png'
+import matic from "./matic.png"
+import hippored from "./hippo_red.png"
+import hippogrn from "./hippo_grn.png"
+import hippoblu from "./hippo_blu.png"
+
+
 import { Line } from 'react-chartjs-2';
 
 const linedatastruct = (canvas) => {
@@ -129,6 +139,7 @@ function App() {
         {/* <div className="enterapp"><a href="http://localhost:3001/" target="blank_">Launch App</a></div> */}
         <a href="https://twitter.com/rgb_network_" target="blank_"><img src={twitter} className="twitter"/></a>
         <a href="https://discord.gg/dtT3wg9ZZq" target="blank_"><img src={discord} className="discord"/></a>
+        <a href="https://www.tradingview.com/u/RGB-Network/" target="blank_"><img src={tv} className="tv"/></a>
       </header>
       <div>
       <h2 className="intro">Making the market more colorful</h2>
@@ -176,7 +187,7 @@ function App() {
                                 at the same time.<br></br>
                                 Launching on MISO.<br></br>
                                 Which one is your favorite?</h3>
-      <a href="https://miso.sushi.com/auctions/live" target="blank_" className="buynow">Crowdsale &#8605;</a>
+      <a href="https://miso.sushi.com/auctions/live" target="blank_" className="buynow">Coming Soon &#8605;</a>
 
       <h2 id='hiw' className="howitworks">How It Works</h2>
 
@@ -228,7 +239,38 @@ function App() {
                                 to consider market sectors<br></br>
                                 </p>     
 
-      <p className='checkit'>&#8592; Try it out </p>    
+      <p className='checkit'>&#8592; Try it out </p>
+
+      <h2 className='tech'>Forever Decentralized</h2>
+
+      <p className='techsub'>We are using theses tools and many more<br></br>
+                              to fully decentralize our stack.<br></br>
+                                From hosting our website (yes this one)<br></br>
+                                on Internet Computer<br></br>
+                                to keeping out data on Storj<br></br>
+                                we are commited to the new decentralized web.
+                                </p>         
+
+     <a href="https://dfinity.org/" target="blank_"><img src={icp} className="icp" alt="logo" /></a>
+     <a href="https://polygon.technology/" target="blank_"><img src={matic} className="matic" alt="logo" /></a>
+     <a href="https://www.storj.io/" target="blank_"><img src={storj} className="storj" alt="logo" /></a>
+     <a href="https://thegraph.com/en/" target="blank_"><img src={grt} className="grt" alt="logo" /></a>
+
+      <h2 className='ourteam'>The HIPPO Team</h2>
+
+      <a href="https://twitter.com/AK_ULTRA_" target="blank_" className='hippolink'><img src={hippored} className="hippored" alt="logo" /></a>
+      <a href="https://twitter.com/AK_ULTRA_" target="blank_" className='hippolink'><img src={hippogrn} className="hippogrn" alt="logo" /></a>
+      <a href="https://twitter.com/AK_ULTRA_" target="blank_" className='hippolink'><img src={hippoblu} className="hippoblu" alt="logo" /></a>
+
+      <p className='milli'>PENUS</p>
+      <p className='marketing'>Head of Marketing</p>
+
+      <p className='akultra'>AKULTRA</p>
+      <p className='founder'>Founder</p>
+
+      <p className='fiesta'>FIESTA</p>
+      <p className='leaddev'>Lead Developer</p>
+
 
       <img src={ss} id="ss" className="ss" alt="logo" />
       <h2 className='spring'>Coming to Web3 <span className='twin22'>Spring 2022</span></h2>
@@ -249,7 +291,7 @@ function App() {
 
       <ul className="list2">
         <li>Token Crowdsales</li>
-        <li className="tab1">Visualization App Beta</li>
+        <li className="tab1">Visualization App</li>
         <li className="tab2">Airdrop Campaign</li>
         <li className="tab3">DAO Formations</li>
       </ul>
@@ -258,10 +300,10 @@ function App() {
         <li>Stock Market Integration</li>
         <li className="tab1">Prediction Market Beta</li>
         <li className="tab2short">RGB NFT Drop</li>
-        <li className="tab3short">Subgraph API</li>
+        <li className="tab3short">Top Secret :)</li>
       </ul>
 
-      <a href="https://twitter.com/hippo_labs" target="blank_" className="akultra">a project from HIPPO Labs &#8605;</a>
+      <a href="https://twitter.com/hippo_labs" target="blank_" className="hippo">a project from HIPPO Labs &#8605;</a>
 
     </div>
     </div>
