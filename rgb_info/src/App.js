@@ -251,16 +251,16 @@ function App() {
                                 we are commited to the new decentralized web.
                                 </p>         
 
-      <img src={icp} className="icp" alt="logo" />
-      <img src={matic} className="matic" alt="logo" />
-      <img src={storj} className="storj" alt="logo" />
-      <img src={grt} className="grt" alt="logo" />
+     <a href="https://dfinity.org/" target="blank_"><img src={icp} className="icp" alt="logo" /></a>
+     <a href="https://polygon.technology/" target="blank_"><img src={matic} className="matic" alt="logo" /></a>
+     <a href="https://www.storj.io/" target="blank_"><img src={storj} className="storj" alt="logo" /></a>
+     <a href="https://thegraph.com/en/" target="blank_"><img src={grt} className="grt" alt="logo" /></a>
 
       <h2 className='ourteam'>The HIPPO Team</h2>
 
-      <img src={hippored} className="hippored" alt="logo" />
-      <img src={hippogrn} className="hippogrn" alt="logo" />
-      <img src={hippoblu} className="hippoblu" alt="logo" />
+      <a href="https://twitter.com/AK_ULTRA_" target="blank_" className='hippolink'><img src={hippored} className="hippored" alt="logo" /></a>
+      <a href="https://twitter.com/AK_ULTRA_" target="blank_" className='hippolink'><img src={hippogrn} className="hippogrn" alt="logo" /></a>
+      <a href="https://twitter.com/AK_ULTRA_" target="blank_" className='hippolink'><img src={hippoblu} className="hippoblu" alt="logo" /></a>
 
       <p className='milli'>PENUS</p>
       <p className='marketing'>Head of Marketing</p>

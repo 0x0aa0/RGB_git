@@ -379,6 +379,20 @@
   width: 230px;
 }
 
+.grt:hover{
+  opacity: 0.6;
+}
+.icp:hover{
+  opacity: 0.6;
+}
+.storj:hover{
+  opacity: 0.6;
+}
+.matic:hover{
+  opacity: 0.6;
+}
+
+
 .ourteam{
   position:absolute;
   top:4460px;
@@ -429,6 +443,13 @@
   border-radius: 50%;
 }
 
+.hippolink{
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: 300px;
+}
+
 .founder{
   position:absolute;
   top:4990px;
@@ -472,13 +493,23 @@
 
 .leaddev{
   position:absolute;
-  top:4980px;
+  top:4990px;
   right: 190px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
   font-size: 28px;
   font-weight: 400;
   line-height: 60px;
+}
+
+.hippored:hover{
+  opacity: 0.6;
+}
+.hippogrn:hover{
+  opacity: 0.6;
+}
+.hippoblu:hover{
+  opacity: 0.6;
 }
 
 .spring{
