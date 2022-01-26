@@ -15,6 +15,8 @@ import hippored from "./hippo_red.png"
 import hippogrn from "./hippo_grn.png"
 import hippoblu from "./hippo_blu.png"
 import demovid from "./demovid.mp4"
+import newrgb from "./newrgb.png"
+import pie from "./pie.png"
 
 
 import { Line } from 'react-chartjs-2';
@@ -181,14 +183,19 @@ function App() {
 
       <div id="tokenomics" className='tokenomics'></div>
 
+      {/*
       <a href="https://etherscan.io/" target="blank_"><img src={red} className="redsvg" alt="logo" /></a>
       <a href="https://etherscan.io/" target="blank_"><img src={grn} className="grnsvg" alt="logo" /></a>
       <a href="https://etherscan.io/" target="blank_"><img src={blu} className="blusvg" alt="logo" /></a>
+      */}
+
+      <img src={newrgb} className="rgbthree" alt="logo" />
+      <img src={pie} className="pie" alt="logo" />
 
       <h2 className="tokens">Our Three Tokens</h2>
       <h3 className="tokenssub">RED, GRN, and BLU launching on MISO <br></br>
                                 with the same tokenomics<br></br>
-                                at the same time.<br></br>
+                                at the same time<br></br>
                                 Team up to maximize your DAO treasury<br></br>
                                 Which one is your favorite?</h3>
       {/*<a href="https://miso.sushi.com/auctions/live" target="blank_" className="buynow">Coming Soon &#8605;</a>*/}
@@ -249,7 +256,7 @@ function App() {
 
       <p className='techsub'>We are using theses tools and many more<br></br>
                               to fully decentralize our stack.<br></br>
-                                From hosting our website (yes this one)<br></br>
+                                From hosting our website <em>(yes this one)</em><br></br>
                                 on Internet Computer<br></br>
                                 to keeping out data on Storj<br></br>
                                 we are commited to the new open web.
@@ -277,7 +284,7 @@ function App() {
 
 
       {/*<img src={ss} id="ss" className="ss" alt="logo" />*/}
-      <h2 className='spring'>Coming to Web3 <span className='twin22'>Spring 2022</span></h2>
+      <h2 className='spring'>Coming to<span className='twin22'> Web3 </span>Spring 2022</h2>
       <video className="demovid" src={demovid} autoPlay loop muted/>
       <div className='cover'></div>
 
