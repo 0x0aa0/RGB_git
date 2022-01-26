@@ -14,6 +14,7 @@ import matic from "./matic.png"
 import hippored from "./hippo_red.png"
 import hippogrn from "./hippo_grn.png"
 import hippoblu from "./hippo_blu.png"
+import demovid from "./demovid.mp4"
 
 
 import { Line } from 'react-chartjs-2';
@@ -121,7 +122,7 @@ const linedatastruct2 = () => {
     ]
   } 
   return ret;
-}
+} 
 
 function App() {
   return (
@@ -132,8 +133,9 @@ function App() {
         <h1 className="name">RGB Network</h1>
         <nav className="navbar">
           <a href="./v1.pdf" target="blank_">Colorpaper</a>
-          <a href="#redsvg">Tokenomics</a>
+          <a href="#tokenomics">Tokenomics</a>
           <a href="#hiw">Demo</a>
+          <a href="#team">Team</a>
           <a href="#roadmap">Roadmap</a>
         </nav>
         {/* <div className="enterapp"><a href="http://localhost:3001/" target="blank_">Launch App</a></div> */}
@@ -177,17 +179,19 @@ function App() {
       }} /></div>
       </div>
 
-      <a href="https://etherscan.io/" target="blank_"><img src={red} id="redsvg" className="redsvg" alt="logo" /></a>
+      <div id="tokenomics" className='tokenomics'></div>
+
+      <a href="https://etherscan.io/" target="blank_"><img src={red} className="redsvg" alt="logo" /></a>
       <a href="https://etherscan.io/" target="blank_"><img src={grn} className="grnsvg" alt="logo" /></a>
       <a href="https://etherscan.io/" target="blank_"><img src={blu} className="blusvg" alt="logo" /></a>
 
       <h2 className="tokens">Our Three Tokens</h2>
-      <h3 className="tokenssub">RED, GRN, and BLU.<br></br>
-                                All deployed with the same tokenomics<br></br>
+      <h3 className="tokenssub">RED, GRN, and BLU launching on MISO <br></br>
+                                with the same tokenomics<br></br>
                                 at the same time.<br></br>
-                                Launching on MISO.<br></br>
+                                Team up to maximize your DAO treasury<br></br>
                                 Which one is your favorite?</h3>
-      <a href="https://miso.sushi.com/auctions/live" target="blank_" className="buynow">Coming Soon &#8605;</a>
+      {/*<a href="https://miso.sushi.com/auctions/live" target="blank_" className="buynow">Coming Soon &#8605;</a>*/}
 
       <h2 id='hiw' className="howitworks">How It Works</h2>
 
@@ -248,7 +252,7 @@ function App() {
                                 From hosting our website (yes this one)<br></br>
                                 on Internet Computer<br></br>
                                 to keeping out data on Storj<br></br>
-                                we are commited to the new decentralized web.
+                                we are commited to the new open web.
                                 </p>         
 
      <a href="https://dfinity.org/" target="blank_"><img src={icp} className="icp" alt="logo" /></a>
@@ -256,13 +260,13 @@ function App() {
      <a href="https://www.storj.io/" target="blank_"><img src={storj} className="storj" alt="logo" /></a>
      <a href="https://thegraph.com/en/" target="blank_"><img src={grt} className="grt" alt="logo" /></a>
 
-      <h2 className='ourteam'>The HIPPO Team</h2>
+      <h2 id='team' className='ourteam'>The HIPPO Team</h2>
 
       <a href="https://twitter.com/AK_ULTRA_" target="blank_" className='hippolink'><img src={hippored} className="hippored" alt="logo" /></a>
       <a href="https://twitter.com/AK_ULTRA_" target="blank_" className='hippolink'><img src={hippogrn} className="hippogrn" alt="logo" /></a>
       <a href="https://twitter.com/AK_ULTRA_" target="blank_" className='hippolink'><img src={hippoblu} className="hippoblu" alt="logo" /></a>
 
-      <p className='milli'>PENUS</p>
+      <p className='milli'>MILLI</p>
       <p className='marketing'>Head of Marketing</p>
 
       <p className='akultra'>AKULTRA</p>
@@ -272,8 +276,10 @@ function App() {
       <p className='leaddev'>Lead Developer</p>
 
 
-      <img src={ss} id="ss" className="ss" alt="logo" />
+      {/*<img src={ss} id="ss" className="ss" alt="logo" />*/}
       <h2 className='spring'>Coming to Web3 <span className='twin22'>Spring 2022</span></h2>
+      <video className="demovid" src={demovid} autoPlay loop muted/>
+      <div className='cover'></div>
 
       <h2 id="roadmap" className="roadmap">Roadmap</h2>
       <p className="q1">Q1</p>

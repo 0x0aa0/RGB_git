@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 .App {
-  height: 5500px;
+  height: 5800px;
   width: 100vw;
   background: #121212; 
   overflow-x: hidden;
@@ -151,6 +151,7 @@
   font-weight: 400;
   text-decoration: none;
   animation: fadeIn 3s;
+  z-index: 100;
 }
 
 .colorpaper{
@@ -165,24 +166,29 @@
   100% {opacity:1;}
 }
 
+.tokenomics{
+  position: absolute;
+  top: 750px;
+}
+
 .redsvg{
   position: absolute;
   left: 80px;
-  top: 820px;
+  top: 830px;
   width: 260px;
 }
 
 .grnsvg{
   position: absolute;
   left: 380px;
-  top: 820px;
+  top: 830px;
   width: 260px;
 }
 
 .blusvg{
   position: absolute;
   left: 230px;
-  top: 1090px;
+  top: 1100px;
   width: 260px;
 }
 
@@ -200,7 +206,7 @@
 
 .tokens{
   position:absolute;
-  top:770px;
+  top:810px;
   right: 50px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
@@ -211,7 +217,7 @@
 
 .tokenssub{
   position:absolute;
-  top:910px;
+  top:960px;
   right: 0px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
@@ -355,27 +361,27 @@
 .icp{
   position:absolute;
   top:3100px;
-  right: 350px;
+  right: 370px;
   width: 250px;
 }
 .matic{
   position:absolute;
   top:3360px;
-  right: 50px;
+  right: 85px;
   width: 210px;
 }
 
 .storj{
   position:absolute;
   top:3350px;
-  right: 370px;
+  right: 390px;
   width: 210px;
 }
 
 .grt{
   position:absolute;
   top:3110px;
-  right: 50px;
+  right: 80px;
   width: 230px;
 }
 
@@ -537,6 +543,25 @@
   top:3800px;
   align-items: center;
 }
+
+.demovid{
+  width: 1400px;
+  position: absolute;
+  top:3855px;
+  align-items: center;
+  outline: none;
+}
+
+.cover{
+  position: absolute;
+  top:3860px;
+  left: 71px;
+  width: 420px;
+  height: 50px;
+  background-color: #151515;
+  z-index: 100;
+}
+
 
 .roadmap{
   position:absolute;
