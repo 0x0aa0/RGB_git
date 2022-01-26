@@ -6,6 +6,7 @@ import blu from './blu.png'
 import ss from './ss.png'
 import discord from './discord.png'
 import twitter from './twitter.png'
+import tv from './tv.png'
 import icp from './icp.png'
 import grt from './grt.png'
 import storj from './storj.png'
@@ -138,6 +139,7 @@ function App() {
         {/* <div className="enterapp"><a href="http://localhost:3001/" target="blank_">Launch App</a></div> */}
         <a href="https://twitter.com/rgb_network_" target="blank_"><img src={twitter} className="twitter"/></a>
         <a href="https://discord.gg/dtT3wg9ZZq" target="blank_"><img src={discord} className="discord"/></a>
+        <a href="https://www.tradingview.com/u/RGB-Network/" target="blank_"><img src={tv} className="tv"/></a>
       </header>
       <div>
       <h2 className="intro">Making the market more colorful</h2>

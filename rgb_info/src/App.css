@@ -77,16 +77,23 @@
 .discord{
   position:absolute;
   top: 15px;
-  right: 105px;
+  right: 145px;
   width: 34px;
-  height: 27px;
+  height: 26px;
 }
 
 .twitter{
   position:absolute;
   top: 15px;
-  right: 170px;
+  right: 210px;
   width: 34px;
+}
+
+.tv{
+  position:absolute;
+  top: 5px;
+  right: 70px;
+  width: 46px;
 }
 
 .chartDiv{
