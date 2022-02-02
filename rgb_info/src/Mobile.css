@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 .App {
-  height: 5800px;
+  height: 5900px;
   width: 100vw;
   background: #121212; 
   overflow-x: hidden;
@@ -26,9 +26,9 @@
   color: #f4f3ee;
   font-family: 'Roboto', sans-serif;
   float: left;
-  margin-top: 17px;
+  margin-top: 20px;
   margin-left: 4px;
-  font-size: 26px;
+  font-size: 18px;
   pointer-events: none;
 }
 
@@ -74,49 +74,49 @@
   background: linear-gradient(180deg, rgba(220,220,220,1) 0%, rgba(173,173,173,1) 100%);
 }
 
-.discord{
+.discord-mobile{
   position:absolute;
   top: 15px;
-  right: 145px;
+  right: 75px;
   width: 34px;
   height: 26px;
 }
 
-.twitter{
+.twitter-mobile{
   position:absolute;
   top: 15px;
-  right: 210px;
+  right: 125px;
   width: 34px;
 }
 
-.tv{
+.tv-mobile{
   position:absolute;
   top: 5px;
-  right: 70px;
+  right: 15px;
   width: 46px;
 }
 
-.chartDiv{
-  min-width: 1300px;
+.chartDiv-mobile{
   width: 100vw;
   max-width: 1700px;
   margin-top: 40px;
   margin-left: -10px;
   margin-right: -10px;
   position: absolute;
+  top: 275px;
   left: -4px;
 }
 
-.intro{
+.intro-mobile{
   position:absolute;
   top:60px;
-  left: 40px;
+  left: 20px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
-  font-size: 60px;
-  width: 550px;
+  font-size: 40px;
+  width: 400px;
   font-weight: 400;
-  line-height: 70px;
+  line-height: 60px;
   animation: fadeIn 3s;
   -webkit-animation: fadeIn 3s;
   -moz-animation: fadeIn 3s;
@@ -124,38 +124,39 @@
   -ms-animation: fadeIn 3s;
 }
 
-.introsub{
+.introsub-mobile {
   position:absolute;
-  top:230px;
-  left: 40px;
+  top:210px;
+  left: 25px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
-  font-size: 28px;
-  width: 380px;
+  font-size: 22px;
+  width: 200px;
   font-weight: 400;
   animation: fadeIn 3s;
   -webkit-animation: fadeIn 3s;
   -moz-animation: fadeIn 3s;
   -o-animation: fadeIn 3s;
   -ms-animation: fadeIn 3s;
-  line-height: 50px;
+  line-height: 35px;
 }
 
-.readpaper{
+.readpaper-mobile{
   width:450px;
   position:absolute;
-  top:470px;
-  right: 100px;
+  top: 500px;
+  right: 0px;
+  left: 45px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 400;
   text-decoration: none;
   animation: fadeIn 3s;
   z-index: 100;
 }
 
-.colorpaper{
+.colorpaper-mobile{
   background: -webkit-linear-gradient(1800deg, rgba(199,255,173,1) 0%, rgba(164,236,210,1) 16%, rgba(113,178,255,1) 31%, rgba(178,119,234,1) 44%, rgba(255,117,210,1) 64%, rgba(255,109,109,1) 83%, rgba(255,175,55,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -172,25 +173,25 @@
   top: 750px;
 }
 
-.redsvg{
+.redsvg-mobile{
   position: absolute;
-  left: 80px;
-  top: 830px;
-  width: 260px;
+  left: 55px;
+  top: 720px;
+  width: 120px;
 }
 
-.grnsvg{
+.grnsvg-mobile{
   position: absolute;
-  left: 380px;
-  top: 830px;
-  width: 260px;
+  left: 205px;
+  top: 720px;
+  width: 120px;
 }
 
-.blusvg{
+.blusvg-mobile{
   position: absolute;
-  left: 230px;
-  top: 1100px;
-  width: 260px;
+  left: 130px;
+  top: 850px;
+  width: 120px;
 }
 
 .redsvg:hover{
@@ -217,36 +218,33 @@
   opacity: 0;
 }
 
-.pie{
+.pie-mobile{
   position: absolute;
-  left: -90px;
-  top: 760px;
-  width: 900px;
+  left: -90;
+  top: 1380px;
+  width: 550px;
 }
 
-
-
-.tokens{
+.tokens-mobile{
   position:absolute;
-  top:810px;
-  right: 50px;
+  top:620px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
-  font-size: 60px;
-  width: 550px;
+  font-size: 40px;
+  width: 350px;
   font-weight: 400;
 }
 
-.tokenssub{
+.tokenssub-mobile{
   position:absolute;
-  top:970px;
+  top:960px;
   right: 0px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 60px;
-  width: 600px;
+  width: 350px;
 }
 
 .buynow{
@@ -265,9 +263,9 @@
   width: 400px;
 }
 
-.howitworks{
+.howitworks-mobile{
   position:absolute;
-  top:1440px;
+  top:1720px;
   align-items: center;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
@@ -276,32 +274,32 @@
   font-weight: 400;
 }
 
-.correlation{
+.correlation-mobile{
   position:absolute;
-  top:1630px;
-  left: 40px;
+  top:1830px;
+  left: 20px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 60px;
   text-align: center;
 }
 
-.chart2Div{
+.chart2Div-mobile{
   width: 60vw;
-  min-width: 800px;
+  min-width: 350px;
   position:absolute;
-  top:1680px;
+  top:2105px;
   right:20px;
 }
 
-.tryme{
+.tryme-mobile{
   position: absolute;
-  top:1940px;
-  left: 65px;
-  width: 405px;
-  height: 200px;
+  top:1955px;
+  left: 45px;
+  width: 300px;
+  height: 125px;
   border: none;
   color:white;
   font-family: 'Open Sans', sans-serif;
@@ -321,28 +319,28 @@
   border: none
 }
 
-.visit{
+.visit-mobile{
   position:absolute;
-  top:2350px;
-  right: 210px;
+  top:2260px;
+  left: 45px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
   font-size: 60px;
   font-weight: 400;
-  width: 300px;
+  width: 350px;
 }
 
-.finally{
+.finally-mobile{
   position:absolute;
-  top:2490px;
-  right: 65px;
+  top:2370px;
+  right: 20px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
   font-size: 28px;
   font-weight: 400;
   line-height: 60px;
   text-align: center;
-  width: 580px;
+  width: 350px;
 }
 
 .checkit{
@@ -358,53 +356,53 @@
   width: 400px;
 }
 
-.tech{
+.tech-mobile{
   position:absolute;
-  top:3020px;
-  left: 100px;
+  top:2720px;
+  left: 25px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 400;
 }
 
-.techsub{
+.techsub-mobile{
   position:absolute;
-  top:3170px;
-  left: 100px;
+  top:2890px;
+  left: 30px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
   font-size: 28px;
   font-weight: 400;
   line-height: 60px;
-  width: 700px;
+  width: 350px;
 }
 
-.icp{
+.icp-mobile{
   position:absolute;
-  top:3100px;
-  right: 370px;
-  width: 250px;
+  top:3590px;
+  right: 190px;
+  width: 170px;
 }
-.matic{
+.matic-mobile{
   position:absolute;
-  top:3360px;
-  right: 85px;
-  width: 210px;
-}
-
-.storj{
-  position:absolute;
-  top:3350px;
-  right: 390px;
-  width: 210px;
+  top:3800px;
+  right: 25px;
+  width: 150px;
 }
 
-.grt{
+.storj-mobile{
   position:absolute;
-  top:3110px;
-  right: 80px;
-  width: 230px;
+  top:3780px;
+  right: 200px;
+  width: 160px;
+}
+
+.grt-mobile{
+  position:absolute;
+  top:3600px;
+  right: 10px;
+  width: 190px;
 }
 
 .grt:hover{
@@ -421,28 +419,29 @@
 }
 
 
-.ourteam{
+.ourteam-mobile{
   position:absolute;
-  top:4460px;
+  top:4230px;
   align-items: center;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
   font-size: 60px;
   font-weight: 400;
+  text-align: center;
 }
 
-.hippored{
+.hippored-mobile{
   position:absolute;
-  top:4650px;
-  left: 150px;
-  width: 300px;
+  top:4455px;
+  left: 25px;
+  width: 150px;
   border-radius: 50%;
 }
 
-.milli{
+.milli-mobile{
   position:absolute;
-  top:4950px;
-  left: 265px;
+  top: 4560px;
+  left: 65px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
   font-size: 28px;
@@ -451,23 +450,25 @@
   width: 700px;
 }
 
-.marketing{
+.marketing-mobile{
   position:absolute;
-  top:4990px;
-  left: 185px;
+  top:4621px;
+  left: 25px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 60px;
-  width: 700px;
+  line-height: 25px;
+  text-align: center;
+  width: 150px;
 }
 
-.hippogrn{
+.hippoblu-mobile{
   position:absolute;
-  top:4650px;
+  top:4455px;
+  left: 215px;
   align-items: center;
-  width: 300px;
+  width: 150px;
   border-radius: 50%;
 }
 
@@ -478,9 +479,20 @@
   width: 300px;
 }
 
-.founder{
+.founder-mobile{
   position:absolute;
-  top:4990px;
+  top:4850px;
+  align-items: center;
+  color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.akultra-mobile{
+  position:absolute;
+  top:4810px;
   align-items: center;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
@@ -489,29 +501,18 @@
   line-height: 60px;
 }
 
-.akultra{
+.hippogrn-mobile{
   position:absolute;
-  top:4950px;
-  align-items: center;
-  color: whitesmoke;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 60px;
-}
-
-.hippoblu{
-  position:absolute;
-  top:4650px;
-  right: 150px;
-  width: 300px;
+  top:4705px;
+  right: 125px;
+  width: 150px;
   border-radius: 50%;
 }
 
-.fiesta{
+.fiesta-mobile{
   position:absolute;
-  top:4950px;
-  right: 255px;
+  top:4560px;
+  right: 55px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
   font-size: 28px;
@@ -519,15 +520,17 @@
   line-height: 60px;
 }
 
-.leaddev{
+.leaddev-mobile{
   position:absolute;
-  top:4990px;
-  right: 190px;
+  top:4620px;
+  right: 50px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 60px;
+  text-align: center;
+  width: 100px;
+  line-height: 25px;
 }
 
 .hippored:hover{
@@ -540,15 +543,15 @@
   opacity: 0.6;
 }
 
-.spring{
+.spring-mobile{
   position:absolute;
-  top:3690px;
+  top:3940px;
   align-items: center;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
-  font-size: 60px;
+  font-size: 45px;
   font-weight: 400;
-  width: 810px;
+  width: 350px;
 }
 
 .twin22{
@@ -566,68 +569,69 @@
   align-items: center;
 }
 
-.demovid{
-  width: 1400px;
+.demovid-mobile{
+  width: 350px;
   position: absolute;
-  top:3855px;
+  top:4125px;
   align-items: center;
   outline: none;
 }
 
-.cover{
+.cover-mobile{
   position: absolute;
-  top:3860px;
-  left: 71px;
-  width: 420px;
-  height: 50px;
+  top:4126px;
+  left: 20px;
+  width: 100px;
+  height: 10px;
   background-color: #151515;
   z-index: 100;
 }
 
 
-.roadmap{
+.roadmap-mobile{
   position:absolute;
-  top:5200px;
+  top:4875px;
   align-items: center;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
   font-size: 60px;
-  width: 300px;
+  width: 100vw;
+  text-align: center;
   font-weight: 400;
 }
 
-.timeline{
+.timeline-mobile{
   position:absolute;
-  top:5360px;
+  top: 5015px;
   width: 100vw;
   height: 10px;
   background: linear-gradient(-90deg, rgba(199,255,173,1) 0%, rgba(164,236,210,1) 16%, rgba(113,178,255,1) 31%, rgba(178,119,234,1) 44%, rgba(255,117,210,1) 64%, rgba(255,109,109,1) 83%, rgba(255,175,55,1) 100%);
 }
 
-.q1{
+.q1-mobile{
   position:absolute;
-  top:5220px;
-  left: 90px;
+  top:4985px;
+  left: 20px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
   font-size: 48px;
   font-weight: 400;
 }
 
-.q2{
+.q2-mobile{
   position:absolute;
-  top:5220px;
-  left: 340px;
+  top:5235px;
+  left: 20px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
   font-size: 48px;
   font-weight: 400;
 }
 
-.q3{
+.q3-mobile{
   position:absolute;
-  top:5220px;
-  right: 340px;
+  top:5495px;
+  left: 20px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
   font-size: 48px;
@@ -644,20 +648,21 @@
   font-weight: 400;
 }
 
-.list1{
+.list1-mobile{
   position:absolute;
-  top:5360px;
-  left: 50px;
+  top:5070px;
+  left: 5px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 400;
   line-height: 50px;
 }
 
-.list2{
+.list2-mobile{
   position:absolute;
-  top:5360px;
+  top: 5320px;
+  left: 5px;
   align-items: center;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
@@ -666,10 +671,10 @@
   line-height: 50px;
 }
 
-.list3{
+.list3-mobile {
   position:absolute;
-  top:5360px;
-  right: 50px;
+  top:5580px;
+  left: 5px;
   color: whitesmoke;
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
@@ -679,17 +684,17 @@
 
 .tab1{
   position: relative;
-  left: 50px;
+  left: 25px;
 }
 
 .tab2{
   position: relative;
-  left: 100px;
+  left: 50px;
 }
 
 .tab3{
   position: relative;
-  left: 150px;
+  left: 75px;
 }
 
 .tab2short{
@@ -708,9 +713,9 @@ ul li{
   width:350px;
 }
 
-.hippo{
+.hippo-mobile{
   position:absolute;
-  top:5790px;
+  top:5825px;
   align-items: center;
   color: #505050;
   font-family: 'Open Sans', sans-serif;
