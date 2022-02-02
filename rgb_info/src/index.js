@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import Mobile from './Mobile';
 import reportWebVitals from './reportWebVitals';
-import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect';
+import { BrowserView, MobileView } from 'react-device-detect';
 
 ReactDOM.render(
   <React.StrictMode>
