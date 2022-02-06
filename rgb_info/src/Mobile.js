@@ -269,9 +269,9 @@ function Mobile() {
 
       <h2 id='team' className='ourteam-mobile'>The HIPPO Team</h2>
 
-      <a href="https://twitter.com/AK_ULTRA_" target="blank_" className='hippolink'><img src={hippored} className="hippored-mobile" alt="logo" /></a>
+      <a href="https://twitter.com/HippoMilli" target="blank_" className='hippolink'><img src={hippored} className="hippored-mobile" alt="logo" /></a>
       <a href="https://twitter.com/AK_ULTRA_" target="blank_" className='hippolink'><img src={hippogrn} className="hippogrn-mobile" alt="logo" /></a>
-      <a href="https://twitter.com/AK_ULTRA_" target="blank_" className='hippolink'><img src={hippoblu} className="hippoblu-mobile" alt="logo" /></a>
+      <a href="https://twitter.com/HippoFiesta" target="blank_" className='hippolink'><img src={hippoblu} className="hippoblu-mobile" alt="logo" /></a>
 
       <p className='milli-mobile'>MILLI</p>
       <p className='marketing-mobile'>Head of Marketing</p>

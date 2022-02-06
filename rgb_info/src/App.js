@@ -269,9 +269,9 @@ function App() {
 
       <h2 id='team' className='ourteam'>The HIPPO Team</h2>
 
-      <a href="https://twitter.com/AK_ULTRA_" target="blank_" className='hippolink'><img src={hippored} className="hippored" alt="logo" /></a>
+      <a href="https://twitter.com/HippoMilli" target="blank_" className='hippolink'><img src={hippored} className="hippored" alt="logo" /></a>
       <a href="https://twitter.com/AK_ULTRA_" target="blank_" className='hippolink'><img src={hippogrn} className="hippogrn" alt="logo" /></a>
-      <a href="https://twitter.com/AK_ULTRA_" target="blank_" className='hippolink'><img src={hippoblu} className="hippoblu" alt="logo" /></a>
+      <a href="https://twitter.com/HippoFiesta" target="blank_" className='hippolink'><img src={hippoblu} className="hippoblu" alt="logo" /></a>
 
       <p className='milli'>MILLI</p>
       <p className='marketing'>Head of Marketing</p>
