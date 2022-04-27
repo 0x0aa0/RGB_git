@@ -1,0 +1,98 @@
+// SPDX-License-Identifier: MIT
+/*
+ _______  _______           _______ _________ _______ _________         _________ _        _______ 
+(  ____ \(  ____ )|\     /|(  ____ )\__   __/(  ___  )\__   __/|\     /|\__   __/( (    /|(  ____ \
+| (    \/| (    )|( \   / )| (    )|   ) (   | (   ) |   ) (   | )   ( |   ) (   |  \  ( || (    \/
+| |      | (____)| \ (_) / | (____)|   | |   | |   | |   | |   | | _ | |   | |   |   \ | || (_____ 
+| |      |     __)  \   /  |  _____)   | |   | |   | |   | |   | |( )| |   | |   | (\ \) |(_____  )
+| |      | (\ (      ) (   | (         | |   | |   | |   | |   | || || |   | |   | | \   |      ) |
+| (____/\| ) \ \__   | |   | )         | |   | (___) |   | |   | () () |___) (___| )  \  |/\____) |
+(_______/|/   \__/   \_/   |/          )_(   (_______)   )_(   (_______)\_______/|/    )_)\_______) LLC
+
+*/
+pragma solidity ^0.8.0;
+
+import "erc721a/contracts/ERC721A.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract CryptoTwins is ERC721A, Ownable {
+    using Strings for uint256;
+
+    uint256 public maxSupply = 3333;
+
+    bool public twinlistPause = true;
+    bool public publicPause = true;
+    bool public revealed = false;
+
+    string public baseURI;
+    string public unrevealedURI;
+
+    mapping(address => uint256) public twinlist;
+    mapping(address => uint256) public mintCount;
+
+    constructor() ERC721A("Crypto Twins", "TWIN") {
+            _safeMint(msg.sender, 183);
+        }
+
+    function setUnrevealedURI(string memory _unrevealedURI) public onlyOwner {
+        unrevealedURI = _unrevealedURI;
+    }
+
+    function setBaseURI(string memory _baseURI) public onlyOwner {
+        baseURI = _baseURI;
+    }
+
+    function reveal() public onlyOwner {
+        revealed = true;
+    }
+
+    function flipTwinlistPause() public onlyOwner {
+        twinlistPause = !twinlistPause;
+    }
+
+    function flipPublicPause() public onlyOwner {
+        publicPause = !publicPause;
+        twinlistPause = !twinlistPause;
+    }
+
+    function tokenURI(uint256 _tokenId) public view virtual override returns (string memory) {
+        require (_exists(_tokenId), "ERC721Metadata: URI query for nonexistent token");
+        if (revealed == false) {
+            return string(abi.encodePacked(unrevealedURI, _tokenId.toString(), ".json"));
+        }
+        return string(abi.encodePacked(baseURI, _tokenId.toString(), ".json"));
+    }
+
+    function uploadTwinlist(address[] calldata addresses) public onlyOwner {
+        for (uint256 i = 0; i < addresses.length; i++) {
+            unchecked{
+                twinlist[addresses[i]] = 3;
+            }
+        }
+    }
+
+    function twinMint(uint256 num) external payable{
+        require (!twinlistPause || !publicPause, "Contract is paused");
+        require (totalSupply() + num <= maxSupply, "Minted out"); 
+        require (twinlist[msg.sender] >= 1 || !publicPause, "Not Twinlisted");
+        require (num <= 3 && num > 0, "Bad Number");
+        require (mintCount[msg.sender] + num <= 3, "No More for You");
+        if(num == 1){
+            require (msg.value >= (0.015 ether + (mintCount[msg.sender] * 0.02 ether)), "Not Enough Ether");
+        } else if(num == 2) {
+            require (msg.value >= (0.05 ether + (mintCount[msg.sender] * 0.04 ether)), "Not Enough Ether");
+        } else {
+            require (msg.value >= 0.105 ether, "Not Enough Ether");
+        }
+        unchecked{
+            twinlist[msg.sender] -= num;
+            mintCount[msg.sender] += num;
+            _safeMint(msg.sender, num);
+        }
+    }
+
+    function withdraw() public onlyOwner {
+        (bool success, ) = msg.sender.call{value: address(this).balance}("");
+        require(success);
+    }
+}

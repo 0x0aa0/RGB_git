@@ -1,0 +1,199 @@
+body{
+    background-color: #000;
+}
+
+.logo{
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.break{
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.twins{
+    display: flex;
+    flex-direction: row; 
+}
+
+.talismans{
+    display: flex;
+    flex-direction: row; 
+}
+
+.text{
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
+
+.twinhead{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+    color: white;
+}
+
+.talihead{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 60px;
+    color: white;
+}
+
+.rgbhead{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 65px;
+    color: white;
+}
+
+p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 50px;
+    color: white;
+}
+
+.button{
+    display: block;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: black; 
+    font-size: 22px;
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.redacted{
+    display: block;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: black; 
+    font-size: 22px;
+    background-color: rgb(80, 80, 80);;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.alien{
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.zero{
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.team{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 80px;
+    color: white;
+}
+
+.members{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.namered{
+    display: inline;
+    font-size: 26px;
+    position: relative;
+    top: -15px;
+    right: 128px;
+    text-align: center;
+}
+
+.namegrn{
+    display: inline;
+    font-size: 26px;
+    position: relative;
+    top: -15px;
+    left: 12px;
+    text-align: center;
+}
+
+.nameblu{
+    display: inline;
+    font-size: 26px;
+    position: relative;
+    top: -15px;
+    left: 145px;
+    text-align: center;
+}
+
+.grn{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.moto{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    color: white;
+}
+
+.ic{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(80, 80, 80);
+    position: relative;
+    top: 62px;
+    left: -20px;
+}
+
+.hosted{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iclogo{
+    height: 50px;
+    position: relative;
+    left:130px;
+}
+
+
+
+
+
+

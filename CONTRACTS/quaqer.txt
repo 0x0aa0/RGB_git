@@ -1,0 +1,21 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.4;
+
+import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+import "quaq.sol";
+
+contract Quaqer is Ownable{    
+    function newQuaq(string memory uri, string memory _name, string memory _symbol, address[] memory addresses) external payable returns(Quaq){
+        require (msg.value >= (addresses.length * 50000000000000000), "Not Enough Ether");
+        Quaq q = new Quaq(uri, addresses, _name, _symbol, msg.sender);
+        return q;
+    }
+
+    function withdraw() public onlyOwner {
+        (bool success, ) = msg.sender.call{value: address(this).balance}("");
+        require(success);
+    }
+}
+
+

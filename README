@@ -1,7 +1,0 @@
-TO START rgb_info
-npm start
-
-TO START rgb_app
-cd api
-venv/Scripts/activate
-npm start

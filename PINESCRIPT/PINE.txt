@@ -1,0 +1,28 @@
+// This source code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © akultraa
+
+//@version=4
+study("RGB", overlay=true)
+
+red = "ETH"
+grn = "BTC"
+blu = "HEX"
+
+t = 24
+val = ema(close, t)
+
+r_val = security(red, timeframe.period, close)
+g_val = security(grn, timeframe.period, close)
+b_val = security(blu, timeframe.period, close)
+
+corr_r = correlation(r_val, close, t) * 255
+if(corr_r < 0)
+    corr_r := 0
+corr_g = correlation(g_val, close, t) * 255
+if(corr_g < 0)
+    corr_g := 0
+corr_b = correlation(b_val, close, t) * 255
+if(corr_b < 0)
+    corr_b := 0
+
+plot(val, color=color.rgb(corr_r, corr_g, corr_b, 1), linewidth=3)
